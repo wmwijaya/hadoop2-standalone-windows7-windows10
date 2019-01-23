@@ -1,5 +1,6 @@
 # hadoop2-standalone-windows7
 Cara sederhana install Hadoop 2 mode Standalone pada Windows 7
+Artikel ini dimuat di http://www.teknologi-bigdata.com/ website tentang teknologi big data: teori dan contoh implementasi.
 
 Hadoop adalah framework open-source  berbasis Java yang ditujukan untuk memproses data secara terdistribusi melalui kemampuan penyimpanan data secara terdistribusi. Hadoop dapat menyimpan data apapun dan memprosesnya dengan model pemrograman MapReduce. Hadoop didesain untuk dapat mengatasi permasalahan yang disebabkan oleh kegagalan fungsi hardware sehingga dapat mencegah hilangnya data maupun proses kerja. Hadoop memotong-motong data untuk didistribusikan ke setiap node di dalam suatu kluster untuk kemudian diproses secara paralel dan lokal di tiap node yang bersangkutan.
 
