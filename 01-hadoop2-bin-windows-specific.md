@@ -1,1 +1,1 @@
-Directory ./bin berisi file-file binary Hadoop 2 yang spesifik untuk OS Windows (patch Hadoop 2 untuk Windows). Hapus semua file pada directory hadoop-2.7.7/bin, ganti dengan file-file pada folder ./bin ini.
+Directory ./bin berisi file-file binary Hadoop 2 yang spesifik untuk OS Windows (patch Hadoop 2 untuk Windows). Hapus semua file pada directory hadoop-2.7.7/bin di komputer anda, dan copy paste semua file dalam directory ./bin ini.
