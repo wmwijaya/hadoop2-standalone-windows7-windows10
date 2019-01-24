@@ -1,5 +1,5 @@
 # hadoop2-standalone-windows7
-Cara sederhana install Hadoop 2 mode Standalone pada Windows 7
+Cara sederhana install Hadoop 2 mode Standalone pada Windows 7 dan Windows 10
 
 Artikel ini dimuat di http://www.teknologi-bigdata.com/ website tentang teknologi big data: teori dan contoh implementasi.
 
