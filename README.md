@@ -21,8 +21,8 @@ Langkah-langkah Install Hadoop-2.7.7
 7. Tetap pada direktori C:\hadoop-2.77\etc\hadoop, edit file yarn-site.xml seperti pada contoh berikut:
 8. Agar Hadoop dapat dioperasikan pada OS Windows, diperlukan patch file Hadoop yang spesifik untuk OS Windows. Patch file ini secara default tidak menjadi bawaan Hadoop. Patch file tersebut bisa diperoleh dari Github URL https://github.com/wmwijaya/hadoop2-standalone-windows7 dengan mengunduh semua file yang ada dalam direktori bin. Kemudian, hapus semua file yang ada dalam direktori C:\hadoop-2.7.7\bin, ganti dengan patch file yang sudah diunduh tersebut.
 9. Set HADOOP_HOME dan Path pada Environment Variables>System Variables Windows 7. Nilai variabel HADOOP_HOME adalah C:\hadoop-2.7.7 sedangkan pada variabel Path silakan diisi C:\hadoop-2.7.7\bin dan C:\hadoop-2.7.7\sbin seperti pada contoh.
-10. Jalankan aplikasi Command Prompt Windows sebagai Administrator, kemudian eksekusi perintah hadoop namenode --format
-11. Jalankan Command Prompt Windows sebagai Administrator, eksekusi perintah start-all.cmd untuk menjalankan Namenode, Datanode, Resource Manager, dan Nodemanager. Masing-masing service tersebut akan membuka jendela Command Prompt baru. Jika anda ingin mengetahui service apa saja yang sedang berjalan, silakan eksekusi perintah jps di Command Prompt.
+10. Jalankan aplikasi Command Prompt Windows sebagai Administrator, kemudian eksekusi perintah hadoop namenode -format atau hdfs namenode -format
+11. Jalankan Command Prompt Windows sebagai Administrator, eksekusi perintah start-all.cmd atau start-dfs.cmd dan start-yarn.cmd untuk menjalankan Namenode, Datanode, Resource Manager, dan Nodemanager. Masing-masing service tersebut akan membuka jendela Command Prompt baru. Jika anda ingin mengetahui service apa saja yang sedang berjalan, silakan eksekusi perintah jps di Command Prompt.
 
 Demikian, Hadoop sudah selesai di-install dan berjalan pada mode standalone. Penampilan GUI-nya dapat diakses melalui URL berikut:
 Resource Manager : http://localhost:8088
